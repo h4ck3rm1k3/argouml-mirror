@@ -42,4 +42,9 @@ public interface VisibilityKind {
      * @return Returns the Public VisibilityKind.
      */
     Object getPublic();
+    
+    /**
+     * @return Returns the Package VisibilityKind.
+     */
+    Object getPackage();
 }
